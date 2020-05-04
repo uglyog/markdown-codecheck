@@ -84,6 +84,7 @@ codenarcFunctionalTest {
 
 kotlinter {
   indentSize = 2
+  disabledRules = ['import-ordering']
 }
 
 detekt {
