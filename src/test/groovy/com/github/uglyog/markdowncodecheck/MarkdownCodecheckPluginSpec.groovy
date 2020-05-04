@@ -10,7 +10,7 @@ class MarkdownCodecheckPluginSpec extends Specification {
     def project = ProjectBuilder.builder().build()
 
     when:
-    project.plugins.apply('com.github.uglyog.markdown_codecheck')
+    project.plugins.apply('com.github.uglyog.markdown-codecheck')
 
     then:
     project.tasks.findByName('checkReadme')

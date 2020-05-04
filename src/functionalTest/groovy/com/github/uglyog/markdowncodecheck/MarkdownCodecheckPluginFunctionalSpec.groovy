@@ -12,7 +12,7 @@ class MarkdownCodecheckPluginFunctionalSpec extends Specification {
         new File(projectDir, 'settings.gradle').text = ''
         new File(projectDir, 'build.gradle').text = """
             plugins {
-                id('com.github.uglyog.markdown_codecheck')
+                id('com.github.uglyog.markdown-codecheck')
             }
         """
 

@@ -33,7 +33,7 @@ gradlePlugin {
   // Define the plugin
   plugins {
     markdown_codecheck {
-      id = 'com.github.uglyog.markdown_codecheck'
+      id = 'com.github.uglyog.markdown-codecheck'
       implementationClass = 'com.github.uglyog.markdowncodecheck.MarkdownCodecheckPlugin'
     }
   }
