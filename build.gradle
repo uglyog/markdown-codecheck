@@ -6,6 +6,7 @@ plugins {
   id 'codenarc'
   id 'org.jmailen.kotlinter' version '2.3.2'
   id 'io.gitlab.arturbosch.detekt' version '1.7.4'
+  id 'maven-publish'
 }
 
 repositories {
@@ -13,6 +14,11 @@ repositories {
   mavenCentral()
   jcenter()
 }
+
+targetCompatibility = '1.8'
+sourceCompatibility = '1.8'
+version = '0.0.0'
+group = 'com.github.uglyog'
 
 dependencies {
   // Align versions of all Kotlin components
